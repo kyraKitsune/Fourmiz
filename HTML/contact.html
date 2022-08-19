@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourmiz - Contact</title>
+    <link rel="icon" href="../images/logo-site.png">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/form.css">
+</head>
+
+<body>
+    <header>
+        <ul class="head">
+            <li class="fourmiz">Fourmiz</li>
+            <li><a class="li-header" href="accueil.html">Accueil</a></li>
+            <li><a class="li-header" href="produits.html">Produits</a></li>
+            <li><a class="li-header" href="contact.html">Contact</a></li>
+            <li id="hover-connect">
+                <img class="avatar" src="../images/avatar.png" alt="">
+                <ul class="sous-menu">
+                    <li class="sous-menu-connexion"><a href="connexion.html">Connexion</a></li>
+                    <li class="sous-menu-inscription"><a href="inscription.html">Inscription</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <h1>Pour toutes questions ou demandes, merci de compléter ce formulaire, nous vous contacterons dans les plus
+            brefs délais.</h1>
+        <form action="action.php" method="post">
+            <div>
+                <label for="name">Votre nom :</label>
+                <input type="text" id="name" name="name" placeholder="Entrez votre nom">
+            </div>
+            <div>
+                <label for="surname">Votre prénom :</label>
+                <input type="text" id="surname" name="surname" placeholder="Entrez votre prénom">
+            </div>
+            <div>
+                <label for="mail">Votre mail :</label>
+                <input type="mail" id="mail" name="mail" placeholder="Entrez votre mail">
+            </div>
+            <div>
+                <label for="message">Votre message :</label>
+                <textarea id="message" name="message" placeholder="Entrez votre message"></textarea>
+            </div>
+            <div>
+                <button>Envoyer</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p class="footer">Fait par Axel</p>
+    </footer>
+</body>
+
+</html>

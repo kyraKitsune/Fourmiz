@@ -1,0 +1,35 @@
+.produits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produit {
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    margin: 0px 10px 20px 10px;
+    cursor: pointer;
+}
+
+.img-div {
+    height: 180px;
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.description-produit {
+    margin: 3px 5px;
+}
+
+.prix {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #2a9d58;
+    padding: 4px;
+    border-end-end-radius: 9px;
+}

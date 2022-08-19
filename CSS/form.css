@@ -1,0 +1,39 @@
+form {
+    margin: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+
+textarea {
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+
+button {
+    height: 30px;
+    width: 90px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.creer-compte {
+    height: 50px;
+}
